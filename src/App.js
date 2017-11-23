@@ -70,6 +70,9 @@ class App extends Component {
         <div className="buttonRow">
           <DrawButton drawCard={this.updateCard}/>
         </div>
+      <div className="bodyFooter">
+          The best way to memorize Hanzi & Pinyin Chinese using Flashcards
+        </div>
       </div>
     );
   }
